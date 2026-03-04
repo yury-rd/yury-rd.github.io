@@ -402,12 +402,15 @@ body {
 .advisory-card {
     padding: 18px 20px;
     border-radius: 8px;
-    background: var(--color-bg-alt);
-    transition: background 0.2s;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-left: 3px solid var(--color-border);
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .advisory-card:hover {
-    background: #eef1f5;
+    border-left-color: var(--color-accent);
+    box-shadow: 0 2px 12px var(--color-card-shadow);
 }
 
 .advisory-card a {
@@ -419,14 +422,21 @@ body {
 .advisory-card-name {
     font-weight: 600;
     font-size: 0.95rem;
-    color: var(--color-text);
-    margin-bottom: 4px;
+    color: var(--color-primary);
+    margin-bottom: 2px;
+}
+
+.advisory-card-role {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    margin-bottom: 2px;
 }
 
 .advisory-card-date {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: #9a9aa0;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .advisory-card-desc {

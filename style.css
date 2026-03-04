@@ -384,64 +384,48 @@ body {
 /* ── Advisory (subsection of Experience) ── */
 .advisory-heading {
     font-family: var(--font-serif);
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 600;
     color: var(--color-primary);
     margin-top: 48px;
     margin-bottom: 20px;
-    padding-top: 32px;
+    padding-top: 28px;
     border-top: 1px solid var(--color-border);
 }
 
-.advisory-grid {
+.advisory-list {
+    list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 40px;
 }
 
-.advisory-card {
-    padding: 18px 20px;
-    border-radius: 8px;
-    background: var(--color-bg);
-    border: 1px solid var(--color-border);
-    border-left: 3px solid var(--color-border);
-    transition: border-color 0.2s, box-shadow 0.2s;
+.advisory-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
-.advisory-card:hover {
-    border-left-color: var(--color-accent);
-    box-shadow: 0 2px 12px var(--color-card-shadow);
-}
-
-.advisory-card a {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-}
-
-.advisory-card-name {
+.advisory-entry a {
     font-weight: 600;
     font-size: 0.95rem;
     color: var(--color-primary);
-    margin-bottom: 2px;
+    text-decoration: none;
+    transition: color 0.2s;
 }
 
-.advisory-card-role {
-    font-size: 0.8rem;
-    font-weight: 500;
+.advisory-entry a:hover {
+    color: var(--color-accent);
+}
+
+.advisory-meta {
+    font-size: 0.82rem;
     color: var(--color-text-secondary);
-    margin-bottom: 2px;
 }
 
-.advisory-card-date {
-    font-size: 0.78rem;
-    color: #9a9aa0;
-    margin-bottom: 8px;
-}
-
-.advisory-card-desc {
-    font-size: 0.85rem;
-    color: #6e6e73;
+.advisory-note {
+    font-size: 0.84rem;
+    color: #8e8e93;
     line-height: 1.5;
 }
 
@@ -912,6 +896,10 @@ body {
         width: auto;
         text-align: left;
         margin-bottom: 4px;
+    }
+
+    .advisory-list {
+        grid-template-columns: 1fr;
     }
 
     .pub-summary {

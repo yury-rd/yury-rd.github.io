@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yury Maximov — AI × Engineering Research</title>
+    <meta name="description" content="Prof. Yury Maximov — Research at the intersection of artificial intelligence and engineering. Engineering-native AI, physics-inspired learning, intelligent propulsion and energy systems.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-brand">Yury Maximov</a>
+        <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#news">News</a>
+            <a href="#videos">Talks</a>
+            <a href="#publications">Publications</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="about">
+    <div class="container">
+        <div class="hero-grid">
+            <div class="hero-photo">
+                <img src="assets/headshot.jpg" alt="Yury Maximov">
+            </div>
+            <div class="hero-text">
+                <p class="hero-kicker">Professor &amp; Research Executive</p>
+                <h1>Yury Maximov</h1>
+                <p class="hero-tagline">Engineering-Native Artificial Intelligence</p>
+                <p class="hero-bio">
+                    I develop AI that is born from engineering — not applied to it as an afterthought.
+                    My research creates new architectures, models, and optimization methods where
+                    physical laws, engineering constraints, and domain structure are foundational
+                    design principles. This work drives a new generation of intelligent propulsion
+                    systems, critical infrastructure security and resilience, and physics-inspired
+                    learning, bridging fundamental theory with real-world impact.
+                </p>
+                <div class="hero-affiliations"></div>
+                <div class="hero-links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=6AXgcjcAAAAJ" class="btn btn-primary" target="_blank" rel="noopener">Google Scholar</a>
+                    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Research Themes -->
+<section class="section" id="research">
+    <div class="container">
+        <h2 class="section-title">Research</h2>
+        <p class="section-subtitle">My work sits at the intersection of machine learning theory and engineering practice — creating AI methods that are structurally shaped by the physical systems they serve.</p>
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>Engineering-Native AI</h3>
+                <p>Designing novel neural architectures and optimization algorithms where engineering constraints — symmetries, conservation laws, stability requirements — are not regularizers bolted on after the fact, but the very scaffolding from which models are built.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔬</div>
+                <h3>AI for Physical Systems</h3>
+                <p>Physics-inspired learning, digital twins, and simulation-augmented AI that respect the governing equations of real-world systems. Developing methods that achieve data efficiency and generalization by encoding physical structure into the learning process.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">✈️</div>
+                <h3>Intelligent Propulsion &amp; Energy</h3>
+                <p>AI-driven design, optimization, and control of propulsion systems, hydrogen-electric powertrains, and energy networks. From grid security at national scale to the engines powering zero-emission aviation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- News: Recently Accepted Papers -->
+<section class="section section-alt" id="news">
+    <div class="container">
+        <h2 class="section-title">News</h2>
+        <p class="section-subtitle">Recently accepted and published papers.</p>
+
+        <div class="news-list">
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">IEEE Access</span>
+                    <span class="news-date">March 2026</span>
+                </div>
+                <h3 class="news-title">B3Emo: Quantifying Affect as a Double-Edged Sword in Strategic LLM Interactions</h3>
+                <p class="news-abstract">Systematic study of emotional reasoning in LLM strategic decision-making. Manipulative agents excel in information-asymmetric games, but emotional reasoning becomes counterproductive under high uncertainty. Humans elicited 2x more cooperation from emotionally attuned LLMs.</p>
+            </article>
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">IEEE Access</span>
+                    <span class="news-date">March 2026</span>
+                </div>
+                <h3 class="news-title">Bridging Global Climate Solutions and Local Realities: Evaluating Neural Networks for High-Resolution Downscaling</h3>
+                <p class="news-abstract">Unified open-source framework for neural downscaling of climate data. Transformer-based models achieve highest accuracy; generative models produce realistic fine-scale structure in complex terrain. Nine architectures benchmarked across three public datasets.</p>
+            </article>
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">Frontiers in Climate</span>
+                    <span class="news-date">March 2026</span>
+                </div>
+                <h3 class="news-title">Neural Network-Based Approach to Evaluate Convective Hazards Frequency Shift under Climate Change</h3>
+                <p class="news-abstract">A robust neural network architecture for predicting extreme weather events that outperforms common baselines, leveraging physics encapsulated in CMIP data. Highlights the impact of rugged terrain on extreme weather risk distribution.</p>
+            </article>
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">AAMAS</span>
+                    <span class="news-date">May 2026</span>
+                </div>
+                <h3 class="news-title">LLM-Guided Multi-Agent Evacuation Coordination via Episodic Memory and Cognitive Task Analysis</h3>
+                <p class="news-abstract">A two-level architecture for wildfire evacuation: RL-driven vehicle policies coordinated by an LLM commander that issues network-level routing rules, with a cognitive task analysis layer for human interpretability.</p>
+            </article>
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">AAAI</span>
+                    <span class="news-date">February 2026</span>
+                </div>
+                <h3 class="news-title">Efficient Contextual Bandit Learning via Reward-Space Sampling and Online Optimization</h3>
+                <p class="news-abstract">A new approach combining reward sampling with online stochastic optimization for contextual bandits. Attains near-optimal reward more quickly and with substantially lower computation than Thompson Sampling and UCB.</p>
+            </article>
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">AAAI</span>
+                    <span class="news-date">February 2026</span>
+                </div>
+                <h3 class="news-title">RESPOND: Realistic Environment Simulation of Population and Natural Disasters with LLM-Driven Agents</h3>
+                <p class="news-abstract">A multi-agent LLM-enhanced platform that jointly simulates natural hazards and human response, coupling high-fidelity flood AI forecasting with agent-based models of human behavior for emergency management.</p>
+            </article>
+
+            <article class="news-item">
+                <div class="news-meta">
+                    <span class="news-venue">EACL</span>
+                    <span class="news-date">February 2026</span>
+                </div>
+                <h3 class="news-title">Unveiling Intrinsic Dimension of Texts: from Academic Abstract to Creative Story</h3>
+                <p class="news-abstract">First comprehensive study grounding intrinsic dimension in interpretable text properties. Scientific prose shows low ID (~8), encyclopedic content medium (~9), and creative writing high (~10.5) — revealing that LLMs find scientific text "representationally simple."</p>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- Selected Talks & Demos -->
+<section class="section" id="videos">
+    <div class="container">
+        <h2 class="section-title">Selected Talks &amp; Demos</h2>
+        <p class="section-subtitle">Research demonstrations and project visualizations.</p>
+        <div class="talks-list">
+
+            <a href="https://youtu.be/oliDIjvz_Sw" target="_blank" rel="noopener" class="talk-item">
+                <span class="talk-icon">&#9654;</span>
+                <div class="talk-content">
+                    <h3>Multi-Agent Evacuation Coordination with LLM-Guided Planning</h3>
+                    <p>Demonstration of a two-level architecture for wildfire evacuation combining RL-driven vehicle policies with LLM-based coordination and cognitive task analysis.</p>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=BwVBJ-SwuQo" target="_blank" rel="noopener" class="talk-item">
+                <span class="talk-icon">&#9654;</span>
+                <div class="talk-content">
+                    <h3>LLM-Orchestrated Material Property Prediction and Auditing</h3>
+                    <p>An autonomous system for predicting mechanical properties of steel alloys using physics-inspired models, with built-in generalization auditing across compositions.</p>
+                </div>
+            </a>
+
+            <a href="https://youtu.be/ksgdX5iguFw" target="_blank" rel="noopener" class="talk-item">
+                <span class="talk-icon">&#9654;</span>
+                <div class="talk-content">
+                    <h3>Simulating Mixed Autonomy Urban Traffic with LLM-Driven Agents</h3>
+                    <p>Simulation of heterogeneous traffic environments where autonomous and human-driven vehicles interact with realistic behavioral profiles.</p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+<!-- Experience Timeline -->
+<section class="section section-alt" id="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2026 – present</div>
+                <div class="timeline-content">
+                    <h3>Co-CEO</h3>
+                    <p class="timeline-org">Interdata Research</p>
+                    <p>Applied research lab advancing engineering-native AI methods for industry adoption and technology transfer.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024 – present</div>
+                <div class="timeline-content">
+                    <h3>Chief Science and Special Projects Officer</h3>
+                    <p class="timeline-org">ZeroAvia</p>
+                    <p>Leading key R&D and business activities at the #1 US GreenTech company (TIME, 2024). Hydrogen-electric aviation powertrains.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024 – 2026</div>
+                <div class="timeline-content">
+                    <h3>Guest Scientist</h3>
+                    <p class="timeline-org">Los Alamos National Laboratory</p>
+                    <p>Supporting internal AI/ML initiatives and projects at one of the world's most advanced scientific institutions.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2016 – 2022</div>
+                <div class="timeline-content">
+                    <h3>Staff Scientist</h3>
+                    <p class="timeline-org">Los Alamos National Laboratory</p>
+                    <p>Led multi-lab grid security projects; contributed to hydrogen and AI/ML research programs.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2016 – 2020</div>
+                <div class="timeline-content">
+                    <h3>Assistant / Associate Professor</h3>
+                    <p class="timeline-org">Skolkovo Institute of Science and Technology</p>
+                    <p>Research and teaching in AI/ML and Energy across Computational & Data Science and Energy departments.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2015 – 2016</div>
+                <div class="timeline-content">
+                    <h3>Deputy Director &amp; Co-Founder</h3>
+                    <p class="timeline-org">Higher School of Economics — "Math of Machine Learning" M.S. Program</p>
+                    <p>Co-founded what is now a top-3 national M.S. program in machine learning.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2013 – 2014</div>
+                <div class="timeline-content">
+                    <h3>Postdoctoral Researcher</h3>
+                    <p class="timeline-org">INRIA Rhône-Alpes &amp; Université Grenoble-Alpes</p>
+                    <p>ML theory research in applied mathematics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<section class="section" id="education">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-grid">
+            <div class="edu-item">
+                <h3>Stanford University</h3>
+                <p class="edu-degree">Business Administration — LEAD Program for Executives</p>
+                <p class="edu-year">2021</p>
+            </div>
+            <div class="edu-item">
+                <h3>Moscow Institute of Physics and Technology</h3>
+                <p class="edu-degree">Ph.D. — Applied Mathematics, <em>Summa Cum Laude</em></p>
+                <p class="edu-year">2013</p>
+            </div>
+            <div class="edu-item">
+                <h3>Moscow Institute of Physics and Technology</h3>
+                <p class="edu-degree">M.S. &amp; B.S. — Applied Physics &amp; Mathematics, <em>Summa Cum Laude</em></p>
+                <p class="edu-year">2007 – 2009</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Publications -->
+<section class="section section-alt" id="publications">
+    <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div class="pub-summary">
+            <div class="pub-stat">
+                <span class="pub-stat-number">70+</span>
+                <span class="pub-stat-label">Publications</span>
+            </div>
+            <div class="pub-stat">
+                <span class="pub-stat-number">15</span>
+                <span class="pub-stat-label">H-index</span>
+            </div>
+            <div class="pub-stat">
+                <span class="pub-stat-number">4</span>
+                <span class="pub-stat-label">Erdős Number</span>
+            </div>
+        </div>
+        <p class="pub-venues">Published at top venues including <strong>NeurIPS</strong>, <strong>ICML</strong>, <strong>ICLR</strong>, and <strong>PSCC</strong>. Program committee member for NeurIPS, ICML, ICLR, PSCC. Invited plenary speaker at <strong>UN COP 29</strong> and other top-tier scientific and business forums.</p>
+        <div class="pub-cta">
+            <a href="https://scholar.google.com/citations?hl=en&user=6AXgcjcAAAAJ&view_op=list_works&sortby=pubdate" class="btn btn-primary" target="_blank" rel="noopener">View All on Google Scholar →</a>
+        </div>
+        <!-- Selected publications can be added here later -->
+        <!--
+        <h3 class="pub-section-heading">Selected Papers</h3>
+        <ol class="pub-list">
+            <li class="pub-item">
+                <span class="pub-title">Paper Title Here</span>
+                <span class="pub-authors">Author 1, Author 2, <strong>Y. Maximov</strong></span>
+                <span class="pub-venue">NeurIPS 2023</span>
+            </li>
+        </ol>
+        -->
+    </div>
+</section>
+
+<!-- Teaching -->
+<section class="section" id="teaching">
+    <div class="container">
+        <h2 class="section-title">Teaching &amp; Mentoring</h2>
+        <div class="teaching-grid">
+            <div class="teaching-card">
+                <h3>Courses</h3>
+                <ul>
+                    <li>Convex Optimization</li>
+                    <li>Machine Learning</li>
+                    <li>Energy Science</li>
+                </ul>
+                <p class="teaching-note">Taught at various European and US universities. Lecture notes are available upon request.</p>
+            </div>
+            <div class="teaching-card">
+                <h3>Student Mentoring</h3>
+                <ul>
+                    <li><strong>5</strong> Ph.D. theses advised/co-advised</li>
+                    <li><strong>50+</strong> M.S. and B.S. theses supervised</li>
+                    <li><strong>10+</strong> research interns mentored at Los Alamos National Laboratory</li>
+                </ul>
+                <p class="teaching-note">Multiple best-paper and national research awards among mentees.</p>
+            </div>
+            <div class="teaching-card">
+                <h3>Community</h3>
+                <ul>
+                    <li>STEM Mentor — Hollister High School Robotics Team (2021–present)</li>
+                    <li>Pro bono disaster prediction consulting (Kazakhstan, 2024)</li>
+                    <li>Co-Founder, "Math of Machine Learning" M.S. program (HSE, top-3 nationally)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section section-alt" id="contact">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">I'm always open to discussing research collaborations, speaking opportunities, and advising engagements.</p>
+        <div class="contact-grid">
+            <a href="#" class="contact-card" id="email-card">
+                <div class="contact-icon">✉</div>
+                <div class="contact-label">Email</div>
+                <div class="contact-value" id="email-display">Loading…</div>
+            </a>
+            <a href="https://scholar.google.com/citations?hl=en&user=6AXgcjcAAAAJ" target="_blank" rel="noopener" class="contact-card">
+                <div class="contact-icon">📚</div>
+                <div class="contact-label">Google Scholar</div>
+                <div class="contact-value">Publications & Citations</div>
+            </a>
+            <a href="https://www.linkedin.com/in/yury-maximov/" target="_blank" rel="noopener" class="contact-card">
+                <div class="contact-icon">💼</div>
+                <div class="contact-label">LinkedIn</div>
+                <div class="contact-value">Professional Profile</div>
+            </a>
+            <a href="https://github.com/yury-rd" target="_blank" rel="noopener" class="contact-card">
+                <div class="contact-icon">⌨</div>
+                <div class="contact-label">GitHub</div>
+                <div class="contact-value">Code & Projects</div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 Yury Maximov. Built with purpose.</p>
+    </div>
+</footer>
+
+<!-- Scroll behavior -->
+<script>
+// Sticky nav on scroll
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Email obfuscation — assembled at runtime so bots can't scrape it
+(function() {
+    const u = 'yury', d = 'ieee.org';
+    const addr = u + '@' + d;
+    const el = document.getElementById('email-display');
+    const card = document.getElementById('email-card');
+    if (el) el.textContent = u + '[at]' + d;
+    if (card) card.href = 'mailto:' + addr;
+})();
+
+// Smooth scroll for nav links
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            document.querySelector('.nav-links')?.classList.remove('open');
+        }
+    });
+});
+</script>
+
+</body>
+</html>

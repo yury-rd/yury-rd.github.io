@@ -500,6 +500,9 @@ body {
 
 .pub-cta {
     margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 /* Future: Selected publications list */

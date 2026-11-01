@@ -376,18 +376,18 @@
   },
   {
     "id": "dQ2og3OwTAUC",
-    "title": "Fast data-driven chance constrained AC-OPF using hybrid sparse Gaussian processes",
-    "authors": "M Mitrovic, A Lukashevich, P Vorobev, V Terzija, Y Maximov, D Deka",
+    "title": "Fast Data-Driven Chance Constrained AC-OPF using Hybrid Sparse Gaussian Processes",
+    "authors": "Mile Mitrovic, Aleksandr Lukashevich, Petr Vorobev, Vladimir Terzija, Yury Maximov, Deepjyoti Deka",
     "year": "2023",
-    "venue": "2023 IEEE Belgrade PowerTech, 1-7, 2023",
-    "kind": "preprint",
-    "version": "Preprint · arXiv:2208.14814v1",
-    "note": "The PDF is the earlier manuscript “Data-Driven Chance Constrained AC-OPF using Hybrid Sparse Gaussian Processes”; the published title adds “Fast.”",
+    "venue": "2023 IEEE Belgrade PowerTech, pp. 1–7",
+    "kind": "manuscript",
+    "version": "Conference manuscript",
+    "note": "",
     "pdf": "/assets/publications/dQ2og3OwTAUC.pdf",
     "pages": 7,
-    "size": 2.0,
+    "size": 2.3,
     "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=6AXgcjcAAAAJ&pagesize=100&citation_for_view=6AXgcjcAAAAJ:dQ2og3OwTAUC",
-    "source": "https://ieeexplore.ieee.org/abstract/document/10202724/"
+    "source": "https://doi.org/10.1109/PowerTech55446.2023.10202724"
   },
   {
     "id": "1yQoGdGgb4wC",

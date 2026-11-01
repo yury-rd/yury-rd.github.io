@@ -24,11 +24,11 @@ function applyFilters() {
   for (const group of groups) {
     const visible = [...group.querySelectorAll(".publication")].filter(paper => !paper.hidden).length;
     group.hidden = visible === 0;
-    group.querySelector("h2 span").textContent = visible + (visible === 1 ? " copy" : " copies");
+    group.querySelector("h2 span").textContent = visible + (visible === 1 ? " paper" : " papers");
   }
   results.textContent = count === papers.length
-    ? "Showing all " + papers.length + " PDFs"
-    : "Showing " + count + " of " + papers.length + " PDFs";
+    ? "Showing all " + papers.length + " papers"
+    : "Showing " + count + " of " + papers.length + " papers";
   document.querySelector("#no-publications").hidden = count !== 0;
 }
 

@@ -16,7 +16,7 @@ function applyFilters() {
   for (const paper of papers) {
     paper.hidden = !(
       (!year.value || paper.dataset.year === year.value) &&
-      (!kind.value || paper.dataset.kind === kind.value) &&
+      (!kind?.value || paper.dataset.kind === kind.value) &&
       terms.every(term => searchable.get(paper).includes(term))
     );
     if (!paper.hidden) count += 1;
@@ -39,7 +39,7 @@ form.addEventListener("change", applyFilters);
 form.addEventListener("reset", () => {
   query.value = "";
   year.value = "";
-  kind.value = "";
+  if (kind) kind.value = "";
   applyFilters();
 });
 
@@ -60,3 +60,12 @@ document.addEventListener("keydown", event => {
     toggle.focus();
   }
 });
+
+// Keep links to papers moved into the preprint collection working.
+function redirectMovedPreprint() {
+  if (location.pathname.startsWith("/selected-publications") && ["#paper-MLfJN-KU85MC", "#paper-N5tVd3kTz84C", "#paper-NJ774b8OgUMC", "#paper-p__nRnzSRKYC"].includes(location.hash)) {
+    location.replace("/preprints/" + location.hash);
+  }
+}
+window.addEventListener("hashchange", redirectMovedPreprint);
+redirectMovedPreprint();

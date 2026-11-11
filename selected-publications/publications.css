@@ -84,3 +84,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .publication h3 { font-size: 1.1rem; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* The preprint collection needs search and year filters only. */
+.preprint-filters { grid-template-columns: minmax(220px, 1fr) 140px auto; }
+@media (max-width: 600px) { .preprint-filters { grid-template-columns: 1fr 1fr; } }

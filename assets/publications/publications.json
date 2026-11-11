@@ -540,21 +540,6 @@
     "source": "https://iopscience.iop.org/article/10.1088/1742-5468/abcaf1/meta"
   },
   {
-    "id": "D_sINldO8mEC",
-    "title": "A new family of tractable Ising models",
-    "authors": "V Likhosherstov, Y Maximov, M Chertkov",
-    "year": "2019",
-    "venue": "arXiv preprint arXiv:1906.06431, 2019",
-    "kind": "preprint",
-    "version": "Preprint · arXiv:1906.06431v1",
-    "note": "",
-    "pdf": "/assets/publications/D_sINldO8mEC.pdf",
-    "pages": 13,
-    "size": 1.1,
-    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=6AXgcjcAAAAJ&pagesize=100&citation_for_view=6AXgcjcAAAAJ:D_sINldO8mEC",
-    "source": "https://arxiv.org/abs/1906.06431"
-  },
-  {
     "id": "l7t_Zn2s7bgC",
     "title": "Importance sampling the union of rare events with an application to power systems analysis",
     "authors": "AB Owen, Y Maximov, M Chertkov",

@@ -63,7 +63,7 @@ document.addEventListener("keydown", event => {
 
 // Keep links to papers moved into the preprint collection working.
 function redirectMovedPreprint() {
-  if (location.pathname.startsWith("/selected-publications") && ["#paper-MLfJN-KU85MC", "#paper-N5tVd3kTz84C", "#paper-NJ774b8OgUMC", "#paper-p__nRnzSRKYC"].includes(location.hash)) {
+  if (location.pathname.startsWith("/selected-publications") && ["#paper-D_sINldO8mEC", "#paper-MLfJN-KU85MC", "#paper-N5tVd3kTz84C", "#paper-NJ774b8OgUMC", "#paper-p__nRnzSRKYC"].includes(location.hash)) {
     location.replace("/preprints/" + location.hash);
   }
 }

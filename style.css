@@ -279,6 +279,16 @@ body {
     gap: 24px;
 }
 
+.research-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+    .research-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .card {
     background: var(--color-bg);
     border: 1px solid var(--color-border);
